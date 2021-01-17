@@ -56,7 +56,7 @@ const App = () => {
         onPress={()=>{
           NativeModules.ImagePickerModule.stop()}}
       >
-        <Text>Pressssss</Text>
+        <Text>Pres ME</Text>
         <Image style={{width:100,height:100}}  source={{uri : src != null ? src : null}} />
       </TouchableOpacity>
    </View>
